@@ -29,7 +29,7 @@ export default function Page() {
                     Read the Docs
                 </Link>
                 <Link href="/">
-                <Image src='public/images/image1.jpg' alt="Netlify logo" />
+                <Image src='images/image1.jpg' alt="Netlify logo" />
                 </Link>
                 <Image src='public/images/image2.jpg' alt="Netlify logo" />
                 <Image src='public/images/image3.jpg' alt="Netlify logo" />
