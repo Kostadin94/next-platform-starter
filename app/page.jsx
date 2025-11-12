@@ -21,10 +21,9 @@ export default function Page() {
         <div className="flex flex-col gap-12 sm:gap-16">
             <section>
                 <ContextAlert className="mb-6" />
-                <h1 className="mb-4">Netlify Platform Starter – Next.js</h1>
+                <h1 className="mb-4">Predrag Rajković</h1>
                 <p className="mb-6 text-lg">
-                    Deploy the latest version of Next.js — including Turbopack, React Compiler, and the new caching APIs
-                    — on Netlify in seconds. No configuration or custom adapter required.
+                    Professor of Mathematics, University of Niš
                 </p>
                 <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="btn btn-lg sm:min-w-64">
                     Read the Docs
@@ -45,19 +44,5 @@ export default function Page() {
 }
 
 function RuntimeContextCard() {
-    const title = `Netlify Context: running in ${ctx} mode.`;
-    if (ctx === 'dev') {
-        return (
-            <Card title={title}>
-                <p>Next.js will rebuild any page you navigate to, including static pages.</p>
-            </Card>
-        );
-    } else {
-        const now = new Date().toISOString();
-        return (
-            <Card title={title}>
-                <p>This page was statically-generated at build time ({now}).</p>
-            </Card>
-        );
-    }
+    return;
 }
