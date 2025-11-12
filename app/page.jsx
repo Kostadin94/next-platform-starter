@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Card } from 'components/card';
+import Image from 'next/image';
 import { ContextAlert } from 'components/context-alert';
 import { Markdown } from 'components/markdown';
 import { RandomQuote } from 'components/random-quote';
@@ -29,6 +29,8 @@ export default function Page() {
                     Read the Docs
                 </Link>
                 <Image src={'public/image1.jpg'} alt="Netlify logo" />
+                <Image src={'public/image2.jpg'} alt="Netlify logo" />
+                <Image src={'public/image3.jpg'} alt="Netlify logo" />
             </section>
             {!!ctx && (
                 <section className="flex flex-col gap-4">
