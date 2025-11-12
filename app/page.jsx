@@ -28,7 +28,7 @@ export default function Page() {
                 <Link href="https://docs.netlify.com/frameworks/next-js/overview/" className="btn btn-lg sm:min-w-64">
                     Read the Docs
                 </Link>
-                <link rel="icon" href="/image1.jpg" sizes="any" />
+                <Image src={'public/image1.jpg'} alt="Netlify logo" />
             </section>
             {!!ctx && (
                 <section className="flex flex-col gap-4">
